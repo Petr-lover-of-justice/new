@@ -43,8 +43,12 @@
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
       background: #FFEFD5;
+      background-image:#ccff00;
+      border: 1px solid grey; 
   }
-  
+  ol{
+    list-style-type: upper-alpha;
+  }
   
   input,
   button,
@@ -89,9 +93,11 @@ h1,
 h2{
   font-size: 50px;
   text-align: center;
+  color:red;
 }
 p{
   font-size: 30px;
+  float:none;
 }
    
  
